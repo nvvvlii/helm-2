@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  sonarqube:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-11T17:00:56.224965788+05:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.12.10
+    description: A Helm chart for Kubernetes
+    digest: 1bc52fd87126c393e5b1f4fe446e91921678131ef5fc50eb4898e7f9af9e91c0
+    name: sonarqube
+    type: application
+    urls:
+    - https://nvvvliii.github.io/helm-2/sonarqube-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-06-11T17:00:56.205884469+05:00"
